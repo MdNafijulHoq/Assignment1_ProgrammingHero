@@ -120,7 +120,7 @@ button {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -134,9 +134,17 @@ button:hover {
   background-color: greenyellow;
   color: red;
 }
-.bannerimg {
-  margin-right: 50px;
-  width: 100%;
+#blabla{
+  
+  max-width: 230px;
+  max-height: 500px;
+
+}
+.bannerimg{
+  width: 440px;
+    height: 365px;
+    margin-right: 260px;
+    margin-top: 70px;
 }
 .details {
   width: 100%;
@@ -150,12 +158,12 @@ span {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
-  font-size: 20px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding: 15px 28px;
+  padding: 10px 20px;
   border-radius: 5px;
   border: none;
   background-color: red;
@@ -163,6 +171,9 @@ span {
 .details {
   border-radius: 10px;
   background-color: #fef7f3;
+  height: 235px;
+  width: 80%;
+  margin-left: 130px
 }
 .details .details1 {
   padding: 35px;
